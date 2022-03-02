@@ -1,0 +1,92 @@
+nav {
+    height: 70px;
+    background: rgb(40 40 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.brand-logo {
+    width: 140px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all ease 0.5s;
+}
+
+#check {
+    display: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: cyan;
+}
+
+nav .manu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+.nav-btn {
+    background-color: rgb(31, 30, 30);
+    color: rgb(48 251 239);
+    padding: 5px 30px;
+    border-radius: 15px;
+}
+
+@media (max-width: 940px) {
+    nav ul {
+        position: fixed;
+        margin: 0;
+        top: 70px;
+        left: -100%;
+        background: rgba(17, 17, 17, 0.507);
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all ease .5s;
+    }
+    #check:checked ~ ul {
+        left: 0%;
+    }
+    nav ul li {
+        margin: 40px 0;
+    }
+    nav ul li a {
+        font-size: 20px;
+        display: block;
+    }
+    nav ul li a:hover,
+    nav ul li a.active{
+    background: none;
+    color: cyan;
+    }
+    nav .manu-btn i {
+        display: block;
+    }
+    #check:checked ~ .manu-btn i:before {
+        content: "\f00d";
+    }
+
+}
