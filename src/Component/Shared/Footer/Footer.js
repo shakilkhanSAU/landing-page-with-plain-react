@@ -49,6 +49,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    <p style={{ fontSize: '13px', fontWeight: '200', color: 'lightGray', paddingLeft: '14px', marginTop: '20px' }}>© Insignia™, 2020. All rights reserved.</p>
                 </div>
             </footer>
         </div>
