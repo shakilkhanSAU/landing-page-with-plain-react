@@ -3,16 +3,26 @@ import './Subscribe.css'
 
 const Subscribe = () => {
     return (
-        <div class="wrapper">
-            <div id="subscribebox">
-                <i class="fa fa-envelope fa-4x"></i>
-                <h3>Subsribe!</h3>
-                <form>
-                    <input type="text" placeholder="Enter email" id="email-input" />
-                    <input type="submit" value="Join" id="subscribe-button" />
-                </form>
-            </div>
-        </div>
+        <div className="wrapper">
+            <div className="subscription container" >
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                }}>
+                    <div>
+                        <h2>Subscribe !</h2>
+                        <p>Join our newsletter to never miss any latest news.</p>
+                    </div>
+                </div>
+                <div id="subscribebox">
+                    <form>
+                        <input type="text" placeholder="Enter email" id="email-input" />
+                        <input type="submit" value="Join" id="subscribe-button" />
+                    </form>
+                </div>
+            </div >
+        </div >
     );
 };
 

@@ -24,7 +24,7 @@ const Features = () => {
                                         </div>
                                         <div className="info-section">
                                             <p> <i className="fa-solid fa-arrow-right-long"></i>Don't worry if your data is very large, Insignia provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
-                                            <button><p><i className="fa-solid fa-arrow-right-long"></i></p></button>
+                                            <a className='learn' href="/">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -39,8 +39,8 @@ const Features = () => {
                                             <h4>Print Out</h4>
                                         </div>
                                         <div className="info-section">
-                                            <p> <i className="fa-solid fa-arrow-right-long"></i>Don't worry if your data is very large, Insignia provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
-                                            <button><p><i className="fa-solid fa-arrow-right-long"></i></p></button>
+                                            <p>Don't worry if your data is very large, Insignia provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
+                                            <a className='learn' href="/">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ const Features = () => {
                                         </div>
                                         <div className="info-section">
                                             <p> <i className="fa-solid fa-arrow-right-long"></i>Don't worry if your data is very large, Insignia provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
-                                            <button><p><i className="fa-solid fa-arrow-right-long"></i></p></button>
+                                            <a className='learn' href="/">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ const Features = () => {
                                         </div>
                                         <div className="info-section">
                                             <p> <i className="fa-solid fa-arrow-right-long"></i>Don't worry if your data is very large, Insignia provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
-                                            <button><p><i className="fa-solid fa-arrow-right-long"></i></p></button>
+                                            <a className='learn' href="/">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@ const Features = () => {
                                         </div>
                                         <div className="info-section">
                                             <p> <i className="fa-solid fa-arrow-right-long"></i>Don't worry if your data is very large, Insignia provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
-                                            <button><p><i className="fa-solid fa-arrow-right-long"></i></p></button>
+                                            <a className='learn' href="/">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ const Features = () => {
                                         </div>
                                         <div className="info-section">
                                             <p> <i className="fa-solid fa-arrow-right-long"></i>Don't worry if your data is very large, Insignia provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
-                                            <button><p><i className="fa-solid fa-arrow-right-long"></i></p></button>
+                                            <a className='learn' href="/">Learn More</a>
                                         </div>
                                     </div>
                                 </div>

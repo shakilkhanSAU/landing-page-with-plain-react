@@ -7,6 +7,7 @@ import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 import Subscribe from '../Subscribe/Subscribe';
 import Testimonial from '../Testimonial/Testimonial';
+import TryOut from '../TryOut/TryOut';
 import './Home.css'
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <DownloadApp></DownloadApp>
             <Testimonial></Testimonial>
             <Subscribe></Subscribe>
+            <TryOut></TryOut>
             <Footer></Footer>
         </div>
     );

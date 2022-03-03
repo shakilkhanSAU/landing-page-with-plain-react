@@ -113,6 +113,15 @@
     cursor: pointer;
     transition: all 0.5s ease;
 }
+
+.learn {
+    font-size: 13px;
+    font-weight: 100;
+    color: cyan;
+    display: inline-block;
+    margin-top: 20px;
+}
+
 .button label.active{
     width: 35px;
 }
@@ -139,7 +148,7 @@ input[type="radio"]{
 }
 @media (max-width: 600px) {
     .main-card .cards .card{
-    /* margin: 20px 0 10px 0; */
-    width: 100%;
-}
+        /* margin: 20px 0 10px 0; */
+        width: 100%;
+    }
 }

@@ -1,8 +1,27 @@
 .wrapper{
     width: 100%;
+    background: #282828;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+}
+
+.subscription {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.subscription h2 {
+    font-size: 25px;
+    color: cyan;
+    font-weight: bold;
+}
+
+.subscription p {
+    font-size: 12px;
+    font-weight: 200px;
+    color: lightgray;
 }
 
 #subscribebox{
@@ -12,7 +31,6 @@
     background: #282828;
     text-align: center;
     border-radius: 4px;
-    padding: 60px 20px;
 }
 
 form{
@@ -24,23 +42,11 @@ form{
     margin: auto;
 }
 
-.fa-envelope{
-    color: #344966;
-}
-
-h3{
-    color: #344966;
-    font-size: 22px;
-    text-align: center;
-    font-weight: 700;
-    font-family: inherit;
-}
-
 #email-input{
-    width: 450px;
+    width: 400px;
     max-width: 100%;
     font-family: inherit;
-    color: #344966;
+    color: #0f1013;
     text-align: left;
     font-weight: 500;
     border-radius: 2px;
@@ -58,20 +64,20 @@ h3{
     border: 0px;
     width: 150px;
     max-width: 100%;
-    font-size: 700;
     padding: 15px;
-    font-size: 14px;
+    font-size: 15px;
     color: #F0F4EF;
     font-family: inherit;
-    background: #344966;
+    background: #0f1013;
     cursor: pointer;
-    border-radius: 0px 2px 2px 0px;
+    border-radius: 0px 20px 20px 0px;
     outline: 0;
     transition: all 0.2s;
 }
 
 #subscribe-button:hover{
-    background: #213144;
+    color: cyan;
+
 }
 
 @media screen and (max-width: 700px) {
@@ -87,5 +93,18 @@ h3{
     }
     #subscribebox{
         width: 100%;
+    }
+    .subscription {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .subscription {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
