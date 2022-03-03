@@ -1,0 +1,22 @@
+.testimonial {
+    display: flex;
+    height: 200px;
+}
+
+.img img {
+    width: 200px;
+    padding-top: 14px;
+}
+
+.info {
+	text-align: left;
+    margin-left: 10px;
+}
+
+.user-testimonial {
+    font-size: 13px;
+    color: lightgray;
+    font-weight: 200;
+    padding-top: 20px;
+    text-align: justify;
+}

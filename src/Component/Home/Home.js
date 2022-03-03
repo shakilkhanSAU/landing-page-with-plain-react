@@ -5,6 +5,8 @@ import DownloadApp from '../DownloadApp/DownloadApp';
 import Features from '../Features/Features';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
+import Subscribe from '../Subscribe/Subscribe';
+import Testimonial from '../Testimonial/Testimonial';
 import './Home.css'
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Features></Features>
             <DownloadApp></DownloadApp>
+            <Testimonial></Testimonial>
+            <Subscribe></Subscribe>
             <Footer></Footer>
         </div>
     );
